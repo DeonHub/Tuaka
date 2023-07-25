@@ -1,0 +1,41 @@
+
+form .input-group .input-group-text {
+    background-color: black;
+    color: white;
+  }
+form .input-group input {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  footer{
+    background-color: rgba(0, 0, 0); 
+    color:white;
+  } 
+  
+  footer .footer{
+    background-color: rgba(0, 0, 0);
+  }
+  
+
+  
+  @media only screen and (max-width : 760px) and (min-width : 320px) {
+    .card-body{
+        width:100vw;
+    }
+    .form{
+        width:100%;
+    }
+    
+    .form-body .row .form-holder .form-content .form-items form {
+      width: 72%;
+    }
+    .form-body .row .form-holder .form-content .form-items form .input-group .input-group-text {
+      font-size: 13px;
+    }
+
+    footer .footer{
+    margin-left:0%;
+     }
+    
+  }/*# sourceMappingURL=styles.css.map */
